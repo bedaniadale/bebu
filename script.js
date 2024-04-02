@@ -1,3 +1,4 @@
+
 const messages = [
     "hi bebuuuu koooo",
     "sorry po if naging rude me sa pananalita",
@@ -8,7 +9,8 @@ const messages = [
     "di ko na kaya mawala ka ule",
     "i miss you and you mean a lot to me",
     "alam ko masyado pang maaga, pero i know that...",
-    "i love you"
+    "i love you",
+    "heto flowers for you"
 ];
 
 const messageButton = document.getElementById("messageButton");
@@ -20,6 +22,7 @@ let currentIndex = 0;
 messageButton.addEventListener("click", function() {
     if (currentIndex < messages.length) {
         messageParagraph.textContent = messages[currentIndex];
+        messageButton.innerHTML = "pindot pa sige"
         currentIndex++;
     } else {
         hiddenImage.style.display = "block";
