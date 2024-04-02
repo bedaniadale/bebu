@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Media Query for 720 x 1600 resolution */
+@media screen and (max-width: 720px) and (min-height: 1600px) {
+    .container {
+        margin-top: 200px;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+    
+    .container {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    
+    p {
+        margin-top: 20px;
+        font-size: 35px;
+        color: #333;
+    }
+
+}
